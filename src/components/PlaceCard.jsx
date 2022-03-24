@@ -33,10 +33,10 @@ export default function PlaceCard() {
         <CardActions>
           <Button size="small" color="primary">
             <Stack spacing={1}>
-            <Rating name="size-medium" defaultValue={2} />
+              <Rating name="size-medium" defaultValue={2} />
             </Stack>
           </Button>
-          <Typography variant="caption" display="block" gutterBottom>
+          <Typography variant="caption" marginTop={0.5}>
             100
           </Typography>
         </CardActions>
