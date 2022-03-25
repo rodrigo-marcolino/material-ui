@@ -7,37 +7,29 @@ import Grid from '@mui/material/Grid'
 import Rating from '@mui/material/Rating'
 import Stack from '@mui/material/Stack'
 
-export default function PlaceCard() {
+export default function PlaceCard({ place }) {
   return (
-    <Grid item xs={3}>
+    <Grid item xs={3} xs="auto">
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            image="https://www.firstlighttravel.com/sites/default/files/2018-11/bay-of-islands.jpg"
-            alt="img"
-            className="img"
-          />
+          <CardMedia component="img" image={place.image} alt="img" className="img" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Waiheke Island
+              {place.name}}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              A mix of delectable vineyards, eclectic art, and golden beaches, even though Waiheke Island is an easy
-              35‐minute ferry ride from Auckland, you’ll feel a world away from the big city bustle. Tour the many
-              premium wineries on the island, relax on a secluded beach or fly over the treetops on a thrilling zip‐line
-              ride, offering breathtaking views of the surrounding paradise.
+              {place.about}
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
             <Stack spacing={1}>
-              <Rating name="size-medium" defaultValue={2} />
+              <Rating name="size-medium" defaultValue={place.rating} />
             </Stack>
           </Button>
           <Typography variant="caption" marginTop={0.5}>
-            100
+            {place.numberOfReviews}
           </Typography>
         </CardActions>
       </Card>

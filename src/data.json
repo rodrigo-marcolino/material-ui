@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "region": "Te Ika-a-Māui / North Island",
+    "places": [
+      {
+        "id": 1,
+        "name": "Waiheke Island",
+        "about": "A mix of delectable vineyards, eclectic art, and golden beaches, even though Waiheke Island. premium wineries on the island, relax on a secluded beach or fly over the treetops on a thrilling zip‐line ride, offering breathtaking views of the surrounding paradise.",
+        "rating": 4.5,
+        "numberOfReviews": 462,
+        "image": "https://www.firstlighttravel.com/sites/default/files/2018-11/bay-of-islands.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Waitomo Caves",
+        "about": "Another world awaits below Waitomo, and the big reveal is almost beyond belief. Derived from a combination of Māori words, 'wai' translates as water and 'tomo' as entrance or hole, this aptly named underground world is made up of a maze of limestone caves – lined with stalagmites, stalactites, and galaxies of glowworms.",
+        "rating": 3.5,
+        "numberOfReviews": 641,
+        "image": "https://static01.nyt.com/images/2016/12/20/science/17tb-glowworm1/17tb-glowworms1-superJumbo.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Cathedral Cove",
+        "about": "Cathedral Cove is arguably one of the most picturesque spots (and there are many) in The Coromandel.",
+        "rating": 4.5,
+        "numberOfReviews": 133,
+        "image": "https://www.newzealand.com/assets/Tourism-NZ/The-Coromandel/c91625b058/img-1536344073-322-13900-59660C3C-DC75-A011-17A9378C1A352601-v4__aWxvdmVrZWxseQo_FocalPointCropWzQ0MCwxMjgwLDUxLDU2LDc1LCJqcGciLDY1LDIuNV0.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "region": "Te Waipounamu / South Island",
+    "places": [
+      {
+        "id": 4,
+        "name": "Aoraki/Mt Cook",
+        "about": "Experience the beauty of Aoraki/Mount Cook on foot. Wander the easy Hooker Valley Track, or choose from other formed and well-marked tracks which begin near Aoraki/Mount Cook Village. Enjoy a birds-eye view of the area from the air on a scenic flight or go on a boat trip with Glacier Explorers on the only accessible glacial lake with icebergs in the world. The Hooker Valley Track gives gives you stunning views of the first rays of the morning sun creeping over the Southern Alps and New Zealand's highest peak.",
+        "rating": 5,
+        "numberOfReviews": 563,
+        "image": "https://s1.1zoom.me/big0/596/New_Zealand_Mountains_Roads_Lake_Lake_Pukaki_Mount_587646_1280x854.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Abel Tasman National Park",
+        "about": "The sheltered bays of Abel Tasman National Park are perfect for sailing or kayaking, with ample opportunity to see the seals and dolphins who regularly play in these coastal waters. If you prefer to explore by land, the park is a great place to walk. Hike the Abel Tasman Coastal Track and follow the coastline through native bush, past limestone cliffs and along golden beaches.",
+        "rating": 4.5,
+        "numberOfReviews": 462,
+        "image": "https://www.new-zealand-travel-showcase.com/images/AbelTasmanAwaroaBayfromAbovePicCourtesywww.nelsontasman.nz.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Stewart Island",
+        "about": "Stewart Island is New Zealand's third largest island, situated 30 kilometres south of the South Island, across the Foveaux Strait. Stewart Island birdlife.",
+        "rating": 3.5,
+        "numberOfReviews": 641,
+        "price": 385,
+        "image": "https://www.nztravelorganiser.com/wp-content/uploads/2019/09/stewart-island.jpg"
+      }
+    ]
+  }
+]
