@@ -1,14 +1,37 @@
 import { createTheme } from '@mui/material/styles'
 
 const theme = createTheme({
+  components: {
+    MuiTypography: {
+      variants: [
+        {
+          props: {
+            variant: 'h6',
+          },
+          style: {
+            fontSize: 27,
+          },
+        },
+        {
+          props: {
+            variant: 'h4',
+          },
+          style: {
+            fontSize: 32,
+            color: 'primary.darker',
+          },
+        },
+      ],
+    },
+  },
   status: {
     danger: '#e53e3e',
   },
   palette: {
     primary: {
-      main: '#e1bee7',
-      darker: '#af8eb5',
-      Light: '#fff1ff',
+      main: '#a1b6e8',
+      darker: '#7186b6',
+      Light: '#d3e8ff',
     },
     secondary: {
       main: '#e1f5fe',

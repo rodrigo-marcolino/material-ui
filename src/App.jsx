@@ -20,7 +20,7 @@ const App = () => {
               <Typography variant="h4" component="h2" marginTop={5} marginBottom={3}>
                 Must visit in {location.region}
               </Typography>
-              <Grid container direction="row" justifyContent="center" alignItems="center" spacing={3} xs="auto">
+              <Grid container direction="row" justifyContent="space-around" alignItems="stretch" spacing={3} xs="auto">
                 {location.places.map((place) => (
                   <PlaceCard place={place} key={place.id} />
                 ))}

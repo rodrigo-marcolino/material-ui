@@ -9,7 +9,7 @@ import Stack from '@mui/material/Stack'
 
 export default function PlaceCard({ place }) {
   return (
-    <Grid item xs={3} xs="auto">
+    <Grid item xs={3} xs="auto" alignItems="stretch">
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
           <CardMedia component="img" image={place.image} alt="img" className="img" />
