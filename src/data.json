@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "region": "Te Ika-a-Māui / North Island",
     "places": [
       {
@@ -30,7 +29,6 @@
     ]
   },
   {
-    "id": 2,
     "region": "Te Waipounamu / South Island",
     "places": [
       {
