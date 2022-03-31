@@ -9,16 +9,16 @@ import Stack from '@mui/material/Stack'
 
 export default function PlaceCard({ place }) {
   return (
-    <Grid item xs={3} xs="auto" alignItems="stretch">
-      <Card sx={{ maxWidth: 345 }}>
+    <Grid item xs={3} xs="auto" alignItems="stretch" sx={{pt:"1rem"}}>
+      <Card sx={{ width: 345}}>
         <CardActionArea>
           <CardMedia component="img" image={place.image} alt="img" className="img" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              {place.name}}
+              {place.name}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              {place.about}
+              {/* {place.about} */}
             </Typography>
           </CardContent>
         </CardActionArea>

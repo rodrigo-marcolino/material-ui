@@ -23,6 +23,7 @@ const theme = createTheme({
         },
       ],
     },
+    MuiCard: {},
   },
   status: {
     danger: '#e53e3e',

@@ -3,6 +3,7 @@ import PlaceCard from '../components/PlaceCard'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import nz from '../data.json'
+import { Link, Outlet } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -15,7 +16,9 @@ const Home = () => {
             </Typography>
             <Grid container direction="row" justifyContent="space-around" alignItems="stretch" spacing={3} xs="auto">
               {location.places.map((place) => (
-                <PlaceCard place={place} key={place.id} />
+                <Link to="/">
+                  <PlaceCard place={place} key={place.id} />
+                </Link>
               ))}
             </Grid>
           </>
